@@ -1,6 +1,6 @@
 class HomeController {
   constructor() {
-    this.message = 'Hello World';
+    this.message = 'Welcome Jimena!';
   }
 }
 

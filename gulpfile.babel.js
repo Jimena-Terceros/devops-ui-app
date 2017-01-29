@@ -46,7 +46,7 @@ let paths = {
 };
 
 // use webpack.config.js to build modules
-gulp.task('webpack', ['clean'], (cb) => {
+gulp.task('build', ['clean'], (cb) => {
   const config = require('./webpack.dist.config');
   config.entry.app = paths.entry;
 
